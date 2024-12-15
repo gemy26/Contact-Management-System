@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ag088\\Downloads\\Compressed\\ConsoleApp1\\ConsoleApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{12C7F8FE-3EFC-4467-8662-C38ABED23C16}|ConsoleApp1\\ConsoleApp1.fsproj|c:\\users\\ag088\\downloads\\compressed\\consoleapp1\\consoleapp1\\consoleapp1\\program.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}",
+      "RelativeMoniker": "D:0:0:{12C7F8FE-3EFC-4467-8662-C38ABED23C16}|ConsoleApp1\\ConsoleApp1.fsproj|solutionrelative:consoleapp1\\program.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12C7F8FE-3EFC-4467-8662-C38ABED23C16}|ConsoleApp1\\ConsoleApp1.fsproj|c:\\users\\ag088\\downloads\\compressed\\consoleapp1\\consoleapp1\\consoleapp1\\consoleapp1.fsproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{12C7F8FE-3EFC-4467-8662-C38ABED23C16}|ConsoleApp1\\ConsoleApp1.fsproj|solutionrelative:consoleapp1\\consoleapp1.fsproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConsoleApp1.fsproj",
+              "DocumentMoniker": "C:\\Users\\ag088\\Downloads\\Compressed\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.fsproj",
+              "RelativeDocumentMoniker": "ConsoleApp1\\ConsoleApp1.fsproj",
+              "ToolTip": "C:\\Users\\ag088\\Downloads\\Compressed\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.fsproj",
+              "RelativeToolTip": "ConsoleApp1\\ConsoleApp1.fsproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001351|",
+              "WhenOpened": "2024-12-06T01:04:04.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.fs",
+              "DocumentMoniker": "C:\\Users\\ag088\\Downloads\\Compressed\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1\\Program.fs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Program.fs",
+              "ToolTip": "C:\\Users\\ag088\\Downloads\\Compressed\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1\\Program.fs",
+              "RelativeToolTip": "ConsoleApp1\\Program.fs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAC3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-06T01:03:17.227Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
