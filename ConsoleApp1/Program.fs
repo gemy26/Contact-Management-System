@@ -60,3 +60,20 @@ type ContactForm() as this =
             contacts <- contacts.Add(phone, updatedContact)
         | None ->
             MessageBox.Show("No contact selected for editing.") |> ignore
+// ...
+    member private this.UpdateListBox() =
+        listBox.Items.Clear()
+        contacts |> Map.iter (fun _ contact -> listBox.Items.Add(sprintf "%s - %s" contact.Name contact.PhoneNumber) |> ignore)
+
+   
+    member private this.AddContactHandler() =
+        let name = nameTextBox.Text
+        let phone = phoneTextBox.Text
+        let email = emailTextBox.Text
+        if name <> "" && phone <> "" then
+            this.AddContact(name, phone, email)
+            this.UpdateListBox()
+            this.ClearFields()
+        else
+            MessageBox.Show("Please fill in the name and phone number.") |> ignore
+
