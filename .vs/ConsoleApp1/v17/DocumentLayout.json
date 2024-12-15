@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ag088\\Downloads\\Compressed\\ConsoleApp1\\ConsoleApp1\\",
+  "WorkspaceRootPath": "D:\\contact\\Contact-Management-System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{12C7F8FE-3EFC-4467-8662-C38ABED23C16}|ConsoleApp1\\ConsoleApp1.fsproj|c:\\users\\ag088\\downloads\\compressed\\consoleapp1\\consoleapp1\\consoleapp1\\program.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}",
+      "AbsoluteMoniker": "D:0:0:{12C7F8FE-3EFC-4467-8662-C38ABED23C16}|ConsoleApp1\\ConsoleApp1.fsproj|d:\\contact\\contact-management-system\\consoleapp1\\program.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}",
       "RelativeMoniker": "D:0:0:{12C7F8FE-3EFC-4467-8662-C38ABED23C16}|ConsoleApp1\\ConsoleApp1.fsproj|solutionrelative:consoleapp1\\program.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12C7F8FE-3EFC-4467-8662-C38ABED23C16}|ConsoleApp1\\ConsoleApp1.fsproj|c:\\users\\ag088\\downloads\\compressed\\consoleapp1\\consoleapp1\\consoleapp1\\consoleapp1.fsproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{12C7F8FE-3EFC-4467-8662-C38ABED23C16}|ConsoleApp1\\ConsoleApp1.fsproj|d:\\contact\\contact-management-system\\consoleapp1\\consoleapp1.fsproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{12C7F8FE-3EFC-4467-8662-C38ABED23C16}|ConsoleApp1\\ConsoleApp1.fsproj|solutionrelative:consoleapp1\\consoleapp1.fsproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
@@ -24,9 +24,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "ConsoleApp1.fsproj",
-              "DocumentMoniker": "C:\\Users\\ag088\\Downloads\\Compressed\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.fsproj",
+              "DocumentMoniker": "D:\\contact\\Contact-Management-System\\ConsoleApp1\\ConsoleApp1.fsproj",
               "RelativeDocumentMoniker": "ConsoleApp1\\ConsoleApp1.fsproj",
-              "ToolTip": "C:\\Users\\ag088\\Downloads\\Compressed\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.fsproj",
+              "ToolTip": "D:\\contact\\Contact-Management-System\\ConsoleApp1\\ConsoleApp1.fsproj",
               "RelativeToolTip": "ConsoleApp1\\ConsoleApp1.fsproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001351|",
@@ -36,11 +36,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.fs",
-              "DocumentMoniker": "C:\\Users\\ag088\\Downloads\\Compressed\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1\\Program.fs",
+              "DocumentMoniker": "D:\\contact\\Contact-Management-System\\ConsoleApp1\\Program.fs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Program.fs",
-              "ToolTip": "C:\\Users\\ag088\\Downloads\\Compressed\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1\\Program.fs",
+              "ToolTip": "D:\\contact\\Contact-Management-System\\ConsoleApp1\\Program.fs",
               "RelativeToolTip": "ConsoleApp1\\Program.fs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAC3AAAAAAAAAA==",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAlwGIAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-12-06T01:03:17.227Z",
               "EditorCaption": ""

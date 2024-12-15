@@ -88,4 +88,23 @@ type ContactForm() as this =
             this.ClearFields()
         else
             MessageBox.Show("Please fill in the name and phone number.") |> ignore
+    
+    member private this.DeleteContact() =
+        match listBox.SelectedItem with
+        | null -> MessageBox.Show("No contact selected for deletion.") |> ignore
+        | selectedItem ->
+            let contactInfo = selectedItem.ToString()
+            let phone = contactInfo.Split('-').[1].Trim()
+            contacts <- contacts.Remove(phone)
+            this.UpdateListBox()
+            this.ClearFields()
+
+   
+    member private this.SearchContact() =
+        let searchTerm = searchTextBox.Text.ToLower()
+        listBox.Items.Clear()
+        contacts
+        |> Map.filter (fun _ contact -> contact.Name.ToLower().Contains(searchTerm) || contact.PhoneNumber.Contains(searchTerm))
+        |> Map.iter (fun _ contact -> listBox.Items.Add(sprintf "%s - %s" contact.Name contact.PhoneNumber) |> ignore)
+        
 
