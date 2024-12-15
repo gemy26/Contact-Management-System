@@ -76,4 +76,16 @@ type ContactForm() as this =
             this.ClearFields()
         else
             MessageBox.Show("Please fill in the name and phone number.") |> ignore
+    member private this.UpdateContactHandler() =
+        let name = nameTextBox.Text
+        let phone = phoneTextBox.Text
+        let email = emailTextBox.Text
+        if selectedContact.IsNone then
+            MessageBox.Show("No contact selected for editing.") |> ignore
+        elif name <> "" && phone <> "" then
+            this.EditContact(name, phone, email)
+            this.UpdateListBox()
+            this.ClearFields()
+        else
+            MessageBox.Show("Please fill in the name and phone number.") |> ignore
 
