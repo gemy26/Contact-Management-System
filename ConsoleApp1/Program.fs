@@ -1,4 +1,4 @@
-﻿open System
+open System
 open System.Windows.Forms
 open System.Drawing
 
@@ -44,3 +44,19 @@ type ContactForm() as this =
         deleteButton.Click.Add(fun _ -> this.DeleteContact())
         searchButton.Click.Add(fun _ -> this.SearchContact())
         listBox.SelectedIndexChanged.Add(fun _ -> this.SelectContactForEditing())
+    member private this.AddContact(name: string, phone: string, email: string) =
+        if contacts.ContainsKey(phone) then
+            MessageBox.Show("A contact with this phone number already exists.") |> ignore
+        else
+            let contact = { Name = name; PhoneNumber = phone; Email = email }
+            contacts <- contacts.Add(phone, contact)
+
+    member private this.EditContact(name: string, phone: string, email: string) =
+        match selectedContact with
+        | Some existingContact ->
+            // Remove the old contact and add the updated one
+            contacts <- contacts.Remove(existingContact.PhoneNumber)
+            let updatedContact = { Name = name; PhoneNumber = phone; Email = email }
+            contacts <- contacts.Add(phone, updatedContact)
+        | None ->
+            MessageBox.Show("No contact selected for editing.") |> ignore
