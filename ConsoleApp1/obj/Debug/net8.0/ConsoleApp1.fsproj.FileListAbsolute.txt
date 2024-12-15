@@ -56,3 +56,4 @@ C:\Users\ag088\Downloads\Compressed\ConsoleApp1\ConsoleApp1\ConsoleApp1\obj\Debu
 C:\Users\ag088\Downloads\Compressed\ConsoleApp1\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.pdb
 C:\Users\ag088\Downloads\Compressed\ConsoleApp1\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.genruntimeconfig.cache
 C:\Users\ag088\Downloads\Compressed\ConsoleApp1\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ref\ConsoleApp1.dll
+C:\Users\ag088\Downloads\Compressed\ConsoleApp1\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.sourcelink.json
