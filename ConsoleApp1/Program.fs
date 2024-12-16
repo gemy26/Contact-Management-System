@@ -107,4 +107,33 @@ type ContactForm() as this =
         |> Map.filter (fun _ contact -> contact.Name.ToLower().Contains(searchTerm) || contact.PhoneNumber.Contains(searchTerm))
         |> Map.iter (fun _ contact -> listBox.Items.Add(sprintf "%s - %s" contact.Name contact.PhoneNumber) |> ignore)
         
+    member private this.SelectContactForEditing() =
+        if listBox.SelectedItem <> null then
+            let selectedItem = listBox.SelectedItem.ToString()
+            let phone = selectedItem.Split('-').[1].Trim()
+            match contacts.TryFind(phone) with
+            | Some contact ->
+                selectedContact <- Some contact
+                nameTextBox.Text <- contact.Name
+                phoneTextBox.Text <- contact.PhoneNumber
+                emailTextBox.Text <- contact.Email
+                addButton.Enabled <- false
+            | None -> ()
+        else
+            this.ClearFields()
 
+    
+    member private this.ClearFields() =
+        nameTextBox.Clear()
+        phoneTextBox.Clear()
+        emailTextBox.Clear()
+        selectedContact <- None
+        addButton.Enabled <- true
+
+
+[<EntryPoint>]
+let main argv =
+    Application.EnableVisualStyles()
+    Application.SetCompatibleTextRenderingDefault(false)
+    Application.Run(new ContactForm())
+    0
